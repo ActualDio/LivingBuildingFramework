@@ -86,6 +86,52 @@
     <Compile Include="BuildingBody.cs" />
     <Compile Include="BuildingHealthState.cs" />
     <Compile Include="Building_HealthTracker.cs" />
+    <Compile Include="Building_HediffSet.cs" />
+    <Compile Include="Comp\CompProperties_BuildingBodyPart.cs" />
+    <Compile Include="Comp\CompProperties_BuildingCore.cs" />
+    <Compile Include="Comp\CompProperties_NutritionConsumer.cs" />
+    <Compile Include="Comp\CompProperties_NutritionSource.cs" />
+    <Compile Include="Comp\CompProperties_NutritionStore.cs" />
+    <Compile Include="Comp\CompProperties_RefuelableNutritionSource.cs" />
+    <Compile Include="Comp\CompProperties_Scaffold.cs" />
+    <Compile Include="Comp\CompProperties_ScaffoldConverter.cs" />
+    <Compile Include="Comp\Comp_BuildingBodyPart.cs" />
+    <Compile Include="Comp\Comp_BuildingCore.cs" />
+    <Compile Include="Comp\Comp_Nutrition.cs" />
+    <Compile Include="Comp\Comp_NutritionConsumer.cs" />
+    <Compile Include="Comp\Comp_NutritionSource.cs" />
+    <Compile Include="Comp\Comp_NutritionStore.cs" />
+    <Compile Include="Comp\Comp_RefuelableNutritionSource.cs" />
+    <Compile Include="Comp\Comp_Scaffold.cs" />
+    <Compile Include="Comp\Comp_ScaffoldConverter.cs" />
+    <Compile Include="Comp\MapComp_BodyTracker.cs" />
+    <Compile Include="Hediff\IBuildingHediff.cs" />
     <Compile Include="LivingBuilding.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\x86\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\x86\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Living.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\LivingBuildingFramework.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\RimworldMod.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\Living.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\LivingBuildingFramework.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\RimworldMod.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Debug\Living.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Debug\LivingBuildingFramework.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Debug\RimworldMod.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Release\Living.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Release\LivingBuildingFramework.csproj.AssemblyReference.cache" />
+    <None Include="obj\x86\Release\RimworldMod.csproj.AssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\x86\Debug\LivingBuildingFramework.dll" />
+    <Content Include="obj\x86\Debug\LivingBuildingFramework.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
 </Project>
