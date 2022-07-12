@@ -7,7 +7,7 @@ using RimWorld.Planet;
 using UnityEngine;
 using Verse.AI.Group;
 
-namespace RimWorld
+namespace LivingBuildingFramework
 {
     public class BuildingBody
     {

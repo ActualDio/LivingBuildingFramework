@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{D6ACD814-1171-42A6-B4C0-4D74A8ECACDC}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>RimworldMod</RootNamespace>
+    <RootNamespace>LivingBuildingFramework</RootNamespace>
     <AssemblyName>LivingBuildingFramework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
@@ -55,7 +55,7 @@
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-	<Reference Include="System" />
+    <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
@@ -84,6 +84,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuildingBody.cs" />
+    <Compile Include="BuildingHealthState.cs" />
+    <Compile Include="Building_HealthTracker.cs" />
+    <Compile Include="Building_Hediff.cs" />
+    <Compile Include="LivingBuilding.cs" />
     <Compile Include="Headdiff/IBuildingHeaddiff.cs" />
     <Compile Include="Comp/Comp_BuildingBodyPart.cs" />
     <Compile Include="Comp/CompProperties_BuildingBodyPart.cs" />
@@ -101,8 +105,7 @@
     <Compile Include="Comp/Comp_Scaffold.cs" />
     <Compile Include="Comp/CompProperties_Scaffold.cs" />
     <Compile Include="Comp/Comp_ScaffoldConverter.cs" />
-	<Compile Include="Comp/CompProperties_ScaffoldConverter.cs" />
-	<Compile Include="Comp/MapComp_BodyTracker.cs" />
-
+    <Compile Include="Comp/CompProperties_ScaffoldConverter.cs" />
+    <Compile Include="Comp/MapComp_BodyTracker.cs" />
   </ItemGroup>
 </Project>
