@@ -86,26 +86,6 @@
     <Compile Include="BuildingBody.cs" />
     <Compile Include="BuildingHealthState.cs" />
     <Compile Include="Building_HealthTracker.cs" />
-    <Compile Include="Building_Hediff.cs" />
     <Compile Include="LivingBuilding.cs" />
-    <Compile Include="Headdiff/IBuildingHeaddiff.cs" />
-    <Compile Include="Comp/Comp_BuildingBodyPart.cs" />
-    <Compile Include="Comp/CompProperties_BuildingBodyPart.cs" />
-    <Compile Include="Comp/Comp_BuildingCore.cs" />
-    <Compile Include="Comp/CompProperties_BuildingCore.cs" />
-    <Compile Include="Comp/Comp_Nutrition.cs" />
-    <Compile Include="Comp/Comp_NutritionConsumer.cs" />
-    <Compile Include="Comp/CompProperties_NutritionConsumer.cs" />
-    <Compile Include="Comp/Comp_NutritionSource.cs" />
-    <Compile Include="Comp/CompProperties_NutritionSource.cs" />
-    <Compile Include="Comp/Comp_NutritionStore.cs" />
-    <Compile Include="Comp/CompProperties_NutritionStore.cs" />
-    <Compile Include="Comp/Comp_RefuelableNutritionSource.cs" />
-    <Compile Include="Comp/CompProperties_RefuelableNutritionSource.cs" />
-    <Compile Include="Comp/Comp_Scaffold.cs" />
-    <Compile Include="Comp/CompProperties_Scaffold.cs" />
-    <Compile Include="Comp/Comp_ScaffoldConverter.cs" />
-    <Compile Include="Comp/CompProperties_ScaffoldConverter.cs" />
-    <Compile Include="Comp/MapComp_BodyTracker.cs" />
   </ItemGroup>
 </Project>
